@@ -1,12 +1,12 @@
-import type { Meta, StoryObj } from "@storybook/react";
-import { Button } from "@mpigsley/components";
+import type { Meta, StoryObj } from '@storybook/react';
+import { Button } from '@mpigsley/components';
 
 const meta: Meta<typeof Button> = {
   component: Button,
   argTypes: {
     type: {
-      control: { type: "radio" },
-      options: ["button", "submit", "reset"],
+      control: { type: 'radio' },
+      options: ['button', 'submit', 'reset'],
     },
   },
 };
@@ -22,22 +22,23 @@ type Story = StoryObj<typeof Button>;
  */
 export const Primary: Story = {
   render: (props) => (
-    <Button
-      {...props}
-      onClick={(): void => {
-        // eslint-disable-next-line no-alert -- alert for demo
-        alert("Hello from Turborepo!");
-      }}
-    >
-      Hello
-    </Button>
+    <>
+      <Button
+        {...props}
+        onClick={(): void => {
+          alert('Hello from Turborepo!');
+        }}
+      >
+        Hello
+      </Button>
+    </>
   ),
   args: {
-    children: "Hello",
-    type: "button",
+    children: 'Hello',
+    type: 'button',
     style: {
-      color: "blue",
-      border: "1px solid gray",
+      color: 'blue',
+      border: '1px solid gray',
       padding: 10,
       borderRadius: 10,
     },
