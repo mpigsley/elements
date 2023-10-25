@@ -1,0 +1,76 @@
+.flexContainer {
+  display: flex;
+}
+
+.alignStretch {
+  align-items: stretch;
+}
+.alignCenter {
+  align-items: center;
+}
+.alignStart {
+  align-items: flex-start;
+}
+.alignEnd {
+  align-items: flex-end;
+}
+.alignBaseline {
+  align-items: baseline;
+}
+.alignInitial {
+  align-items: initial;
+}
+.alignInherit {
+  align-items: inherit;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+.justifyEnd {
+  justify-content: flex-end;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.justifyBetween {
+  justify-content: space-between;
+}
+.justifyAround {
+  justify-content: space-around;
+}
+.justifyEvenly {
+  justify-content: space-evenly;
+}
+.justifyInitial {
+  justify-content: initial;
+}
+.justifyInherit {
+  justify-content: inherit;
+}
+
+.directionRow {
+  flex-direction: row;
+}
+.directionColumn {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.scroll {
+  overflow: auto;
+}
+
+.flex {
+  flex: var(--flex);
+}
+
+.shrink0 {
+  flex-shrink: 0;
+}
+.shrink1 {
+  flex-shrink: 1;
+}
