@@ -1,11 +1,21 @@
 {
   "name": "@mpigsley/components",
+  "description": "Highly-themable, and opinionated react components.",
   "version": "0.0.2",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
+  "author": "Mitchel Pigsley <mpigsley@pm.me> (https://mitchelpigsley.çom/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpigsley/elements.git"
+  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpigsley/elements/issues"
+  },
+  "homepage": "https://github.com/mpigsley/elements/blob/main/packages/components/README.md",
   "files": [
     "dist/**"
   ],
@@ -14,12 +24,14 @@
     "dev": "tsup src/index.ts --watch",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
+  "peerDependencies": {
+    "react": "^18 | ^17 | ^16"
+  },
   "dependencies": {
     "clsx": "^2.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.9",
-    "@types/react-dom": "^18.0.4",
     "react": "^18.1.0",
     "tsconfig": "*",
     "tsup": "^7.2.0",

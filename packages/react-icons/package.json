@@ -1,11 +1,21 @@
 {
   "name": "@mpigsley/icons",
+  "description": "`react-feather`, but more icons.",
   "version": "0.0.2",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
+  "author": "Mitchel Pigsley <mpigsley@pm.me> (https://mitchelpigsley.çom/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpigsley/elements.git"
+  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpigsley/elements/issues"
+  },
+  "homepage": "https://github.com/mpigsley/elements/blob/main/packages/react-icons/README.md",
   "files": [
     "dist/**"
   ],
@@ -14,9 +24,11 @@
     "dev": "tsup src/index.ts --format esm,cjs --watch --dts --external react",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
+  "peerDependencies": {
+    "react": "^18 | ^17 | ^16"
+  },
   "devDependencies": {
     "@types/react": "^18.0.9",
-    "@types/react-dom": "^18.0.4",
     "react": "^18.1.0",
     "tsconfig": "*",
     "tsup": "^5.10.1",

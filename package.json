@@ -4,6 +4,16 @@
   "description": "building blocks",
   "packageManager": "npm@9.8.1",
   "main": "index.js",
+  "author": "Mitchel Pigsley <mpigsley@pm.me> (https://mitchelpigsley.çom/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mpigsley/elements.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mpigsley/elements/issues"
+  },
+  "homepage": "https://github.com/mpigsley/elements#README.md",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --no-cache --continue",
@@ -23,15 +33,5 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mpigsley/elements.git"
-  },
-  "author": "mpigsley <mpigsley@pm.me>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mpigsley/elements/issues"
-  },
-  "homepage": "https://github.com/mpigsley/elements#readme"
+  ]
 }
