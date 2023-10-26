@@ -1,5 +1,16 @@
 # @mpigsley/components
 
+## 0.1.0
+
+### Minor Changes
+
+- 3107c70: package config, peer dependencies, and the beginnings of documentation.
+- 025b049: [updates]
+
+  - Add `<FlexContainer />` & `<Spinner />`
+  - Wire up css modules to compile into the package dist
+  - Create a `<ThemeProvider />` that will take in color palette, spacing, and global component settings
+
 ## 0.0.2
 
 ### Patch Changes

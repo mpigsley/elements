@@ -1,5 +1,11 @@
 # @mpigsley/icons
 
+## 0.1.0
+
+### Minor Changes
+
+- 3107c70: package config, peer dependencies, and the beginnings of documentation.
+
 ## 0.0.2
 
 ### Patch Changes
