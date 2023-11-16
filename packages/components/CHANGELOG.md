@@ -1,5 +1,11 @@
 # @mpigsley/components
 
+## 0.1.1
+
+### Patch Changes
+
+- ea6d423: Fix the react peerDependency declaration
+
 ## 0.1.0
 
 ### Minor Changes
