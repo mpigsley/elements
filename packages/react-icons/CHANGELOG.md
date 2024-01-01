@@ -1,5 +1,11 @@
 # @mpigsley/icons
 
+## 0.1.2
+
+### Patch Changes
+
+- eab3cf2: declare different package exports
+
 ## 0.1.1
 
 ### Patch Changes
