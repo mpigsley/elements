@@ -1,5 +1,11 @@
 # @mpigsley/icons
 
+## 0.1.4
+
+### Patch Changes
+
+- 384854c: Switch module declaration to \*.mjs
+
 ## 0.1.3
 
 ### Patch Changes
