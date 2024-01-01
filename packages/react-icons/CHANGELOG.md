@@ -1,5 +1,11 @@
 # @mpigsley/icons
 
+## 0.1.3
+
+### Patch Changes
+
+- f781da1: undo last changes to package exports
+
 ## 0.1.2
 
 ### Patch Changes
