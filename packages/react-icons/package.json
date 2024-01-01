@@ -3,7 +3,7 @@
   "description": "`react-feather`, but more icons.",
   "version": "0.1.3",
   "main": "./dist/index.js",
-  "module": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
   "author": "Mitchel Pigsley <mpigsley@pm.me> (https://mitchelpigsley.çom/)",
