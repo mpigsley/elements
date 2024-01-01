@@ -6,11 +6,6 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
-  "type": "module",
-  "exports": {
-    "import": "./index.mjs",
-    "require": "./index.js"
-  },
   "author": "Mitchel Pigsley <mpigsley@pm.me> (https://mitchelpigsley.çom/)",
   "repository": {
     "type": "git",
