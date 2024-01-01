@@ -6,6 +6,11 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
+  "type": "module",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.js"
+  },
   "author": "Mitchel Pigsley <mpigsley@pm.me> (https://mitchelpigsley.çom/)",
   "repository": {
     "type": "git",
@@ -20,8 +25,8 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
-    "dev": "tsup src/index.ts --format esm,cjs --watch --dts --external react",
+    "build": "tsup",
+    "dev": "tsup --watch",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "peerDependencies": {
